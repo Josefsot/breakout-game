@@ -1,0 +1,28 @@
+
+#gameContainer {
+    width: 480px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  canvas {
+    background: #eee;
+    display: block;
+    margin: 0 auto;
+  }
+  #gameStats {
+    margin: 10px 0;
+  }
+  #gameStats span {
+    margin: 0 10px;
+  }
+  #menu,
+  #gameOver {
+    margin-top: 50px;
+  }
+  button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-top: 20px;
+  }
+  

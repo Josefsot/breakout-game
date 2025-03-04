@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jose Sotos Breakout Game</title>
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+<body>
+
+<div id="gameContainer">
+    <div id="menu">
+      <h1>Breakout Game</h1>
+      <button id="startButton">Start Game</button>
+    </div>
+    <canvas id="gameCanvas" width="480" height="320" style="display:none;"></canvas>
+    <div id="gameStats" style="display:none;">
+      <span id="score">Score: 0</span>
+      <span id="lives">Lives: 3</span>
+    </div>
+    <div id="gameOverID" style="display:none;">
+      <h2>Game Over</h2>
+      <p>Your final score: <span id="finalScore"></span></p>
+      <button id="restartButton">Play Again</button>
+    </div>
+</div>
+
+<script src="JS/file.js" defer></script> 
+</body>
+</html>
