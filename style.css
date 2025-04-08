@@ -26,3 +26,93 @@
     margin-top: 20px;
   }
   
+  /* Center the leaderboard container */
+#leaderboardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the leaderboard box */
+#leaderboardBox {
+  width: 300px;
+  height: 300px;
+  background-color: #ffffff;
+  border: 2px solid #000;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the leaderboard list */
+#leaderboardList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-size: 1.2em;
+  color: #333;
+}
+
+#leaderboardList li {
+  margin: 10px 0;
+}
+
+/* Style the back button */
+#backButton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#backButton:hover {
+  background-color: #0056b3;
+}
+
+/* Center the game container perfectly */
+#gameContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Arial, sans-serif;
+  background-color: transparent; /* Remove background color */
+  width: auto; /* Let the width adjust to the content */
+  height: auto; /* Let the height adjust to the content */
+}
+
+/* Style the canvas */
+#gameCanvas {
+  border: 2px solid #000; /* Add a border for better visibility */
+  background-color: #fff; /* Set a background color for the canvas */
+  display: block;
+}
+
+/* Center the menu */
+#menu {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Center the game over screen */
+#gameOverID {
+  text-align: center;
+}
